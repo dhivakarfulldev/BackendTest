@@ -1,8 +1,9 @@
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors"
 
 dotenv.config();
-
+app.use(cors())
 const app = express();
 app.use(express.json())
 let users = [

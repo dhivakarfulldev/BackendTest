@@ -10,15 +10,15 @@ let users = [
         id:1,
         name:"dhiva",
         email:"dhiva123@gmail.com",
-        phone:"123456789",
-        date:"01-01-2026"
+        password:"123456789",
+        
     },
     { 
         id:2,
         name:"bala",
         email:"bala123@gmail.com",
-        phone:"123456789",
-        date:"02-02-2026"
+        password:"12345",
+        
     }
 ]
 app.get("/users"  , (req, res) => {
